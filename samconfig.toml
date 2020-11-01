@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "notes-api"
+s3_bucket = "ajv-notes-app-upload"
+s3_prefix = "notes-api"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
